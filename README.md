@@ -4,6 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 It is basically an angular web app for maintaining Contact Information.
 Things implemented in this project
+1) This project primarily deals with mocking the service calls on the UI. How we can use interceptors to mock certain network calls that are within the app or via some third party libraries/modules we might have used in our app.
 1) Creating a formarray within a formgroup which will contain multiple formgroups within it
 2) Creating Dynamic form controls based on the service response
 3) Ierating over the formarray using ngFor in the angular template 
