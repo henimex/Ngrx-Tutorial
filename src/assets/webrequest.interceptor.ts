@@ -17,7 +17,7 @@ export class WebRequestInterceptor {
         } else {
           open.apply(this, arguments);
         }
-      }
+      };
     };
     func.apply(null, [XMLHttpRequest]);
   }
